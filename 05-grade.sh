@@ -18,7 +18,8 @@ fi
 # exercise: write a script (that utilizes weather-util) 
 # that prints "it's cold" if the temperature is < 40
 # it's chilly if < 60, it's okay if < 70 and,it's hot for
- # everything else
+# everything else
+
 
 #!/bin/bash
 
@@ -37,3 +38,4 @@ elif [ "$temp" -lt 70 ]; then
 else
     echo "It's hot"
 fi
+
